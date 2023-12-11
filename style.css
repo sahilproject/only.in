@@ -705,7 +705,7 @@ footer select option {
     width: 129px;
   }
   footer{
-    display: none;
+    display: block;
   }
   .products .flexboxex .flexbox {
     height:330px;
