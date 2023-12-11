@@ -674,7 +674,7 @@ footer select option {
     font-size: 50%;
   }
    .categories .box-container .box img{
-    width: 130px;
+    width: 110px;
    }
   .home .content {
     background-size: cover;
@@ -683,7 +683,7 @@ footer select option {
     font-size: 2.5rem;
   }
   .categories {
-    margin-top: 900px;
+    margin-top: 950px;
   }
   .header .login-form {
     height: 250px;
@@ -710,6 +710,55 @@ footer select option {
   .products .flexboxex .flexbox {
     height:330px;
   }
+}
+
+
+
+@media (max-width:  345px) {
+  html {
+    font-size: 50%;
+  }
+   .categories .box-container .box img{
+    width: 130px;
+   }
+  .home .content {
+    background-size: cover;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+  .categories {
+    margin-top: 2400px;
+  }
+  .header .login-form {
+    height: 250px;
+    width: 300px;
+    font-size: 20px;
+  }
+  .header .login-form p {
+    font-size: 12px;
+  }
+  .header .login-form .box {
+    font-size: 12px;
+  }
+  .header .login-form p {
+    font-size: 1.3rem;
+    color: var(--light-color);
+    padding: .4rem 0;
+  }
+  .products .addcartbtn{
+    width: 129px;
+  }
+  footer{
+    display: none;
+  }
+  .products .flexboxex .flexbox {
+    height:330px;
+  }
+  .products .container {
+    margin-right: 10px;
+  }
+
 }
 
 
